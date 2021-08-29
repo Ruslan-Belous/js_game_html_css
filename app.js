@@ -7,7 +7,6 @@ const game = () => {
     const match = document.querySelector('.match')
     const score = document.querySelector('.score')
     const winner = document.querySelector('.winner')
-    console.log(winner);
     // bootbox.alert("This is the default alert!");
 
     // start game
@@ -16,7 +15,6 @@ const game = () => {
 
         playBtn.addEventListener('click', () => {
             userName = prompt(`Enter your name please?, name`)
-
             introScreen.classList.add('fadeOut')
             match.classList.add('fadeIn')
             score.classList.add('fadeIn')
@@ -75,8 +73,13 @@ const game = () => {
         displayComputer.textContent = compScore
         // if (playScore === 2) {
         //     console.log('yra play win');
+        //     startGame()
+        //     return
+
         // } else if (compScore === 2) {
-        //     console.log('comp win');
+        //     console.log('comp win')
+        //     startGame()
+        //     return
         // }
     }
 
