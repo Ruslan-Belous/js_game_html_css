@@ -12,7 +12,6 @@ const game = () => {
     // start game
     const startGame = () => {
 
-
         playBtn.addEventListener('click', () => {
             userName = prompt(`Enter your name please?, name`)
             introScreen.classList.add('fadeOut')
