@@ -13,7 +13,7 @@ const game = () => {
     const startGame = () => {
 
         playBtn.addEventListener('click', () => {
-            userName = prompt(`Enter your name please?, name`)
+            userName = prompt(`Enter your name please?`)
             introScreen.classList.add('fadeOut')
             match.classList.add('fadeIn')
             score.classList.add('fadeIn')
